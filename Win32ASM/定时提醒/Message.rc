@@ -1,0 +1,133 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_MAIN DIALOG DISCARDABLE  0, 0, 160, 83
+STYLE DS_CENTER | WS_MINIMIZEBOX | WS_POPUP | WS_CLIPSIBLINGS | 
+    WS_CLIPCHILDREN | WS_CAPTION | WS_SYSMENU
+CAPTION "倒计时提醒"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,85,61,33,11
+    PUSHBUTTON      "取消",IDCANCEL,122,61,31,11
+    RTEXT           "提示：",IDC_STATIC,12,8,26,8
+    RTEXT           "倒计时：",IDC_STATIC,6,41,32,8
+    EDITTEXT        IDC_TEXT,38,8,114,23,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_WANTRETURN
+    EDITTEXT        IDC_MIN,38,40,30,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "分",IDC_STATIC,72,42,8,8
+    EDITTEXT        IDC_SECOND,83,40,26,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "秒",IDC_STATIC,114,41,8,8
+END
+
+IDD_MSG DIALOG DISCARDABLE  0, 0, 167, 109
+STYLE DS_SETFOREGROUND | WS_POPUP | WS_CAPTION
+CAPTION "时间到！！！！！！！！！！！！！！！！！！！！！！"
+FONT 10, "System"
+BEGIN
+    EDITTEXT        IDC_EDIT1,7,7,153,78,ES_CENTER | ES_MULTILINE | 
+                    ES_AUTOHSCROLL | ES_READONLY
+    PUSHBUTTON      "确定",IDOK,64,89,36,12
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_MAIN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 153
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 72
+    END
+
+    IDD_MSG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 160
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 102
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON    DISCARDABLE     "CLOCK06.ICO"
+#endif    // Chinese (中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

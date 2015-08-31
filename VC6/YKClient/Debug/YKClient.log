@@ -1,0 +1,37 @@
+﻿生成启动时间为 2015/5/17 9:41:11。
+     1>项目“D:\BaiDuYun\Projects\VC6\YKClient\YKClient.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp".\Debug\YKClient.pch" /Fo".\Debug\\" /Fd".\Debug\vc120.pdb" /FR".\Debug\\" /Gd /TP /analyze- /errorReport:prompt YKClient.cpp
+         YKClient.cpp
+     1>d:\baiduyun\projects\vc6\ykclient\ykclient.cpp(175): warning C4996: 'WSASocketA': Use WSASocketW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+                 e:\program files (x86)\windows kits\8.1\include\um\winsock2.h(3457) : 参见“WSASocketA”的声明
+     1>d:\baiduyun\projects\vc6\ykclient\ykclient.cpp(219): warning C4101: “i”: 未引用的局部变量
+     1>d:\baiduyun\projects\vc6\ykclient\ykclient.cpp(213): warning C4101: “p2”: 未引用的局部变量
+     1>d:\baiduyun\projects\vc6\ykclient\ykclient.cpp(213): warning C4101: “p1”: 未引用的局部变量
+     1>d:\baiduyun\projects\vc6\ykclient\ykclient.cpp(215): warning C4101: “pBuf”: 未引用的局部变量
+     1>d:\baiduyun\projects\vc6\ykclient\ykclient.cpp(249): warning C4101: “p2”: 未引用的局部变量
+     1>d:\baiduyun\projects\vc6\ykclient\ykclient.cpp(249): warning C4101: “p1”: 未引用的局部变量
+     1>d:\baiduyun\projects\vc6\ykclient\ykclient.cpp(251): warning C4101: “pBuf”: 未引用的局部变量
+     1>d:\baiduyun\projects\vc6\ykclient\ykclient.cpp(285): warning C4101: “dwYHSize”: 未引用的局部变量
+     1>d:\baiduyun\projects\vc6\ykclient\ykclient.cpp(283): warning C4101: “str”: 未引用的局部变量
+     1>d:\baiduyun\projects\vc6\ykclient\ykclient.cpp(323): warning C4244: “=”: 从“DWORD”转换到“WORD”，可能丢失数据
+     1>d:\baiduyun\projects\vc6\ykclient\ykclient.cpp(473): warning C4101: “ThreadId”: 未引用的局部变量
+     1>d:\baiduyun\projects\vc6\ykclient\ykclient.cpp(516): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+                 e:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1850) : 参见“inet_addr”的声明
+     1>d:\baiduyun\projects\vc6\ykclient\ykclient.cpp(520): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+                 e:\program files (x86)\windows kits\8.1\include\um\winsock2.h(2238) : 参见“gethostbyname”的声明
+     1>d:\baiduyun\projects\vc6\ykclient\ykclient.cpp(559): warning C4244: “=”: 从“DWORD”转换到“WORD”，可能丢失数据
+     1>d:\baiduyun\projects\vc6\ykclient\ykclient.cpp(527): warning C4101: “dwCounts”: 未引用的局部变量
+     1>d:\baiduyun\projects\vc6\ykclient\ykclient.cpp(532): warning C4101: “str”: 未引用的局部变量
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\YKClient.exe" /INCREMENTAL /NOLOGO odbc32.lib odbccp32.lib YKClient.res kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\Debug\YKClient.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\YKClient.lib" /MACHINE:X86 /SAFESEH .\Debug\YKClient.res
+         .\Debug\StdAfx.obj
+         .\Debug\YKClient.obj
+         YKClient.vcxproj -> D:\BaiDuYun\Projects\VC6\YKClient\.\Debug\YKClient.exe
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\bscmake.exe /nologo /o".\Debug\YKClient.bsc" .\Debug\StdAfx.sbr .\Debug\YKClient.sbr
+     1>已完成生成项目“D:\BaiDuYun\Projects\VC6\YKClient\YKClient.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.66

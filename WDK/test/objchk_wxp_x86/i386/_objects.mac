@@ -1,0 +1,16 @@
+
+
+386_OBJECTS=\
+ $(OBJ_PATH)\$O\mytest.obj \
+
+
+
+
+
+# lowercased
+BASEDIR=e:\winddk\7600.16385.1
+OBJECT_ROOT=e:\winddk\7600.16385.1
+MAKEDIR_LOWERCASE=e:\wdk_projects\test
+OBJ_PATH=e:\wdk_projects\test
+CONCURRENT_MIDL=0
+CONCURRENT_MANIFEST_BUILD=0

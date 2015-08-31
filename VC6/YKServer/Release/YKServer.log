@@ -1,0 +1,37 @@
+﻿生成启动时间为 2015/5/1 23:20:03。
+     1>项目“D:\BaiDuYun\Projects\VC6\YKServer\YKServer.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp".\Release\YKServer.pch" /Fo".\Release\\" /Fd".\Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt StdAfx.cpp
+         StdAfx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp".\Release\YKServer.pch" /Fo".\Release\\" /Fd".\Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt YKServer.cpp
+         YKServer.cpp
+     1>d:\baiduyun\projects\vc6\ykserver\resource.h(28): warning C4005: “IDC_SIZE”: 宏重定义
+                 E:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(10076) : 参见“IDC_SIZE”的前一个定义
+     1>YKServer.cpp(130): warning C4101: “size”: 未引用的局部变量
+     1>YKServer.cpp(311): warning C4101: “b”: 未引用的局部变量
+     1>YKServer.cpp(309): warning C4101: “ret”: 未引用的局部变量
+     1>YKServer.cpp(307): warning C4101: “pBuf”: 未引用的局部变量
+     1>YKServer.cpp(342): warning C4101: “pBuf”: 未引用的局部变量
+     1>YKServer.cpp(562): warning C4101: “len”: 未引用的局部变量
+     1>YKServer.cpp(728): warning C4244: “=”: 从“DWORD”转换到“WORD”，可能丢失数据
+     1>YKServer.cpp(719): warning C4101: “size”: 未引用的局部变量
+     1>YKServer.cpp(717): warning C4101: “str”: 未引用的局部变量
+     1>YKServer.cpp(806): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+                 E:\Program Files (x86)\Windows Kits\8.1\Include\um\Winsock2.h(1868) : 参见“inet_ntoa”的声明
+     1>YKServer.cpp(772): warning C4101: “dwThreadId”: 未引用的局部变量
+     1>YKServer.cpp(1035): warning C4101: “str”: 未引用的局部变量
+     1>YKServer.cpp(1140): warning C4101: “dwSize”: 未引用的局部变量
+     1>YKServer.cpp(1138): warning C4101: “hFile”: 未引用的局部变量
+     1>YKServer.cpp(1138): warning C4101: “hEdit”: 未引用的局部变量
+       ResourceCompile:
+         E:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D NDEBUG /D _VC80_UPGRADE=0x0600 /l"0x0804" /nologo /fo".\Release\YKServer.res" YKServer.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Release\YKServer.exe" /INCREMENTAL:NO /NOLOGO odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\Release\YKServer.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Release\YKServer.lib" /MACHINE:X86 /SAFESEH .\Release\YKServer.res
+         .\Release\StdAfx.obj
+         .\Release\YKServer.obj
+         YKServer.vcxproj -> D:\BaiDuYun\Projects\VC6\YKServer\.\Release\YKServer.exe
+     1>已完成生成项目“D:\BaiDuYun\Projects\VC6\YKServer\YKServer.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.06

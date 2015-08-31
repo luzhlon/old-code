@@ -1,0 +1,259 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DLGCHAT DIALOG DISCARDABLE  0, 0, 234, 218
+STYLE DS_MODALFRAME | DS_CENTER | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "YKServer Console"
+FONT 12, "新宋体"
+BEGIN
+    PUSHBUTTON      "Send Message to Client",IDOK,135,196,92,15
+    EDITTEXT        IDC_SHOW,7,7,220,157,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_READONLY | WS_VSCROLL
+    EDITTEXT        IDC_EDIT,7,168,220,22,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    WS_VSCROLL
+END
+
+IDD_DLGCMD DIALOG DISCARDABLE  0, 0, 402, 283
+STYLE DS_MODALFRAME | DS_CENTER | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "远程CMD"
+FONT 10, "新宋体"
+BEGIN
+    DEFPUSHBUTTON   "执行",IDOK,354,262,41,14
+    EDITTEXT        IDC_CMDSHOW,7,7,388,241,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_READONLY | WS_VSCROLL
+    EDITTEXT        IDC_CMDIN,7,249,388,12,ES_AUTOHSCROLL
+END
+
+IDD_DLGMAIN DIALOG DISCARDABLE  0, 0, 462, 326
+STYLE DS_MODALFRAME | DS_CENTER | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "YKServer"
+MENU IDR_MENU1
+FONT 10, "新宋体"
+BEGIN
+    EDITTEXT        IDC_OUTINFO,156,265,299,55,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_READONLY | WS_VSCROLL
+    CONTROL         "Tree1",IDC_FILETREE,"SysTreeView32",TVS_HASBUTTONS | 
+                    TVS_HASLINES | TVS_LINESATROOT | TVS_SINGLEEXPAND | 
+                    WS_BORDER | WS_TABSTOP,7,16,148,242
+    CONTROL         "List1",IDC_FILELIST,"SysListView32",LVS_REPORT | 
+                    WS_BORDER | WS_TABSTOP,157,7,296,251
+    LTEXT           "Client Drivers:",IDC_STATIC,7,7,61,8
+    PUSHBUTTON      "聊天窗口",IDC_CHAT,7,264,48,14
+    PUSHBUTTON      "CMDSHELL",IDC_CMD,7,284,48,14
+    PUSHBUTTON      "配置客户端",IDC_CLIENT,7,305,48,15
+    PUSHBUTTON      "屏幕监控",IDC_MONITOR,70,264,52,14
+    PUSHBUTTON      "截屏",IDC_CAPSCREEN,71,284,52,14
+END
+
+IDD_DLGFILE DIALOG DISCARDABLE  0, 0, 193, 59
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "文传传输"
+FONT 11, "新宋体"
+BEGIN
+    LTEXT           "正在传输：",IDC_STATIC,7,9,40,8
+    EDITTEXT        IDC_FILEPATH,46,9,136,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_BORDER
+    LTEXT           "已完成：",IDC_STATIC,7,34,32,9
+    EDITTEXT        IDC_NUM,158,34,14,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    ES_NUMBER | NOT WS_BORDER
+    LTEXT           "%",IDC_STATIC,176,34,10,9
+    EDITTEXT        IDC_LEN,38,34,40,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    ES_NUMBER | NOT WS_BORDER
+    LTEXT           "共：",IDC_STATIC,89,35,11,9
+    EDITTEXT        IDC_SIZE,110,34,37,12,ES_AUTOHSCROLL | ES_READONLY | NOT 
+                    WS_BORDER
+END
+
+IDD_DLGCFG DIALOG DISCARDABLE  0, 0, 301, 71
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "YKServer Config"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,164,50,50,14
+    PUSHBUTTON      "取消",IDCANCEL,244,50,50,14
+    LTEXT           "下载文件保存路径：",IDC_STATIC,7,19,72,8
+    EDITTEXT        IDC_DOWNDIR,80,17,193,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_SELPATH,279,17,14,11
+    LTEXT           "本机绑定端口号：",IDC_STATIC,7,34,65,8
+    EDITTEXT        IDC_PORT,80,33,31,11,ES_AUTOHSCROLL | ES_NUMBER
+END
+
+IDD_INPUT DIALOG DISCARDABLE  0, 0, 155, 48
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "请输入："
+FONT 10, "新宋体"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,7,28,26,13
+    PUSHBUTTON      "取消",IDCANCEL,42,28,25,13
+    EDITTEXT        IDC_INNAME,7,7,141,15,ES_AUTOHSCROLL
+END
+
+IDD_DLGFILES DIALOG DISCARDABLE  0, 0, 193, 57
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "文件上传"
+FONT 11, "新宋体"
+BEGIN
+    LTEXT           "正在上传：",IDC_STATIC,8,10,40,8
+    EDITTEXT        IDC_FILEPATH,50,10,136,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_BORDER
+    LTEXT           "已完成：",IDC_STATIC,7,36,32,8
+    EDITTEXT        IDC_LEN,38,36,40,12,ES_AUTOHSCROLL | ES_READONLY | NOT 
+                    WS_BORDER
+    LTEXT           "共：",IDC_STATIC,83,37,13,8
+    EDITTEXT        IDC_SIZE,98,37,39,12,ES_AUTOHSCROLL | ES_READONLY | NOT 
+                    WS_BORDER
+    EDITTEXT        IDC_NUM,145,36,19,12,ES_AUTOHSCROLL | ES_READONLY | NOT 
+                    WS_BORDER
+    LTEXT           "%",IDC_STATIC,168,36,8,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_DLGCHAT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 227
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 211
+    END
+
+    IDD_DLGCMD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 395
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 276
+    END
+
+    IDD_DLGMAIN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 455
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 320
+    END
+
+    IDD_DLGFILE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 186
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 52
+    END
+
+    IDD_DLGCFG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 294
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 64
+    END
+
+    IDD_INPUT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 148
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 41
+    END
+
+    IDD_DLGFILES, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 186
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 50
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU DISCARDABLE 
+BEGIN
+    POPUP "控制"
+    BEGIN
+        MENUITEM "配置",                        IDM_CONFIG
+    END
+END
+
+#endif    // Chinese (中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

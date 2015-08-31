@@ -1,0 +1,11 @@
+1>warnings in directory e:\wdk_projects\hook_shadowssdt
+1>e:\wdk_projects\hook_shadowssdt\hook_shadow.c(62) : warning C4047: '==' : 'int' differs in levels of indirection from 'void *'
+1>e:\wdk_projects\hook_shadowssdt\hook_shadow.c(69) : warning C4133: 'function' : incompatible types - from 'TCHAR [64]' to 'wchar_t *'
+1>e:\wdk_projects\hook_shadowssdt\hook_shadow.c(69) : warning C4133: 'function' : incompatible types - from 'TCHAR *' to 'wchar_t *'
+1>e:\wdk_projects\hook_shadowssdt\hook_shadow.c(70) : warning C4133: 'function' : incompatible types - from 'TCHAR [64]' to 'wchar_t *'
+1>e:\wdk_projects\hook_shadowssdt\hook_shadow.c(70) : warning C4133: 'function' : incompatible types - from 'TCHAR *' to 'wchar_t *'
+1>e:\wdk_projects\hook_shadowssdt\hook_shadow.c(149) : warning C4047: '=' : 'PSERVICE_DESCRIPTOR_TABLE' differs in levels of indirection from 'unsigned int'
+1>e:\wdk_projects\hook_shadowssdt\hook_shadow.c(211) : warning C4047: '=' : 'int' differs in levels of indirection from 'PVOID'
+1>e:\wdk_projects\hook_shadowssdt\hook_shadow.c(221) : warning C4047: 'function' : 'LONG' differs in levels of indirection from 'PVOID'
+1>e:\wdk_projects\hook_shadowssdt\hook_shadow.c(221) : warning C4024: '_InterlockedExchange' : different types for formal and actual parameter 2
+1>e:\wdk_projects\hook_shadowssdt\hook_shadow.c(312) : warning C4047: '=' : 'int (__stdcall *)(int,PWINUNICODESTRING,PWINUNICODESTRING,int,int,LONG,LONG,LONG,LONG,int,int,int,int,int,int)' differs in levels of indirection from 'ULONG'

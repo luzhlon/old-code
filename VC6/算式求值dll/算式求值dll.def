@@ -1,0 +1,3 @@
+LIBRARY "À„ Ω«Û÷µdll.dll"
+EXPORTS
+calculate @1

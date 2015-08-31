@@ -1,0 +1,1 @@
+复制所有文件到 windows\system32文件夹下执行绿化.reg文件即可

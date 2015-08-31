@@ -1,0 +1,119 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resrc1.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "resource.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+ICON_MAIN	ICON	"main.ico"
+IDD_MAIN DIALOGEX 100, 100, 335, 229
+STYLE DS_MODALFRAME | DS_CONTROL | DS_CENTER | WS_MINIMIZEBOX | WS_POPUP | 
+    WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "忘不了"
+FONT 10, "宋体"
+BEGIN
+    LTEXT           "任务列表：",IDC_STC1,12,15,38,9,SS_NOTIFY | NOT 
+                    WS_GROUP
+    LISTBOX         IDC_LST1,9,30,150,156,LBS_HASSTRINGS | 
+                    LBS_NOINTEGRALHEIGHT | NOT WS_BORDER | WS_TABSTOP,
+                    WS_EX_CLIENTEDGE
+    LTEXT           "任务详情：",IDC_STC2,165,15,38,10,NOT WS_GROUP
+    LISTBOX         IDC_LST2,165,30,159,156,LBS_HASSTRINGS | 
+                    LBS_NOINTEGRALHEIGHT | NOT WS_BORDER | WS_TABSTOP,
+                    WS_EX_CLIENTEDGE
+    PUSHBUTTON      "新建",IDC_NEW,9,195,33,18
+    PUSHBUTTON      "删除",IDC_DEL,48,195,30,18
+    PUSHBUTTON      "修改",IDC_EDIT,87,195,33,18
+END
+
+IDD_NEW DIALOGEX 65533, 65524, 234, 240
+STYLE WS_MINIMIZEBOX | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "新建任务"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "任务名称：",IDC_STC3,15,21,40,8,NOT WS_GROUP
+    EDITTEXT        IDC_EDT1,63,18,152,12,NOT WS_BORDER,WS_EX_CLIENTEDGE
+    LTEXT           "任务内容：",IDC_STC4,15,39,40,9,NOT WS_GROUP
+    EDITTEXT        IDC_EDT2,63,39,152,138,NOT WS_BORDER,WS_EX_CLIENTEDGE
+    LTEXT           "提醒时间：",IDC_STC5,18,189,40,9,NOT WS_GROUP
+    EDITTEXT        IDC_EDT3,63,186,27,13,ES_NUMBER | NOT WS_BORDER,
+                    WS_EX_CLIENTEDGE
+    LTEXT           "年",IDC_EDT1,93,189,7,9,NOT WS_GROUP
+    EDITTEXT        IDC_EDT4,102,186,12,13,ES_NUMBER | NOT WS_BORDER,
+                    WS_EX_CLIENTEDGE
+    LTEXT           "月",IDC_STC7,117,189,12,10,NOT WS_GROUP
+    EDITTEXT        IDC_EDT5,129,186,12,13,ES_NUMBER | NOT WS_BORDER,
+                    WS_EX_CLIENTEDGE
+    LTEXT           "日",IDC_EDT4,144,189,9,7,NOT WS_GROUP
+    EDITTEXT        IDC_EDT6,156,186,11,13,ES_NUMBER | NOT WS_BORDER,
+                    WS_EX_CLIENTEDGE
+    LTEXT           "时",IDC_STC9,171,189,8,8,NOT WS_GROUP
+    EDITTEXT        IDC_EDT7,183,186,12,13,ES_NUMBER | NOT WS_BORDER,
+                    WS_EX_CLIENTEDGE
+    LTEXT           "分",IDC_EDT7,201,189,10,9,NOT WS_GROUP
+    PUSHBUTTON      "确定",IDOK,123,213,36,15
+    PUSHBUTTON      "取消",IDCANCEL,180,213,36,15
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resrc1.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""resource.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Chinese (中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
